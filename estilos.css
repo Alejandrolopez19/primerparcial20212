@@ -142,7 +142,7 @@ margin:auto;
 .contenedorclave {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 360px;
+  grid-gap: 390px;
   grid-auto-rows: 120px;
   grid-template-areas:
     ". a a ."
@@ -183,6 +183,9 @@ margin:auto;
   color: #FFFFFF;
 }
 
+h1{
+    text-align: center;
+}
 .botoncclave{
   padding: 2px 3px;
   border-top-left-radius: 20px;
@@ -190,4 +193,28 @@ margin:auto;
   background-color: #1B1BF7;
   width: 100px;
   color: #FFFFFF;
+}
+
+
+.botonct{
+  padding: 2px 3px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #6E6C6C;
+  width: 100px;
+  color: #FFFFFF;
+ justify-self: right;
+
+}
+
+.botonaceptar{
+     padding: 2px 3px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #6E6C6C;
+  width: 100px;
+  color: #FFFFFF;
+ justify-self: right;
+
+}
 }
