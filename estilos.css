@@ -1,14 +1,10 @@
-.contenedor{
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 50px auto;
- }
+
 
 .contenedor {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 320px;
-  grid-auto-rows: 400px;
+  grid-gap: 160px;
+  grid-auto-rows: 200px;
   grid-template-areas:
     ". a a ."
     ". a a .";
@@ -39,4 +35,23 @@ img{
 display:block;
 margin:auto;
 
+}
+
+
+
+/* BOTONES */
+
+h4{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.botoninicio{
+    padding: 3px 5px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #1B1BF7;
+  width: 220px;
+  margin: auto;
+  color: #FFFFFF;
 }
