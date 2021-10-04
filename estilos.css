@@ -142,7 +142,7 @@ margin:auto;
 .contenedorclave {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 160px;
+  grid-gap: 360px;
   grid-auto-rows: 120px;
   grid-template-areas:
     ". a a ."
@@ -170,10 +170,24 @@ margin:auto;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
   background-color: #1B1BF7;
-  width: 5px;
-  margin: auto;
+  width: 90px;
   color: #FFFFFF;
 }
+
+.botoncancelarclave{
+  padding: 2px 3px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #6E6C6C;
+  width: 100px;
+  color: #FFFFFF;
 }
 
-
+.botoncclave{
+  padding: 2px 3px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #1B1BF7;
+  width: 100px;
+  color: #FFFFFF;
+}
